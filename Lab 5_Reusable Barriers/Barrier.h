@@ -1,29 +1,8 @@
 /* Barrier.h --- Barrier.h
  * 
  * Filename: Barrier.h
- * Description: 
+ * Description: The Barrier header file
  * Author: Calin Doran
- * Maintainer: 
- * Created: Fri Nov 22 17:00:00 2019 (+0000)
- * Version: 
- * Package-Requires: ()
- * URL: 
- * Doc URL: 
- * Keywords: 
- * Compatibility: 
- * 
- */
-
-/* Commentary: 
- * 
- * 
- * 
- */
-
-/* Change Log:
- * 
- * 
- */
 
 /* This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

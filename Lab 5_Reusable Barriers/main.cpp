@@ -12,8 +12,13 @@ int sharedVariable=0;
 
 /*! \fn barrierTask
     \brief An example of using a reusable barrier
+
 */
-/*! shows a message that is split in to 2 part to show how a rendezvous works*/
+
+/*! shows message to split in to two parts in order to show how rendezvous work
+
+*/
+
 void barrierTask(std::shared_ptr<Barrier> theBarrier, int numLoops){
 
   for(int i=0;i<numLoops;++i){

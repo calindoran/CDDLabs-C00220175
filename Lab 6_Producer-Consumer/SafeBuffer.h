@@ -1,32 +1,8 @@
 /* SafeBuffer.h --- 
  * 
  * Filename: SafeBuffer.h
- * Description: 
- * Author: Joseph
- * Maintainer: 
- * Created: Tue Jan  8 12:30:23 2019 (+0000)
- * Version: 
- * Package-Requires: ()
- * Last-Updated: Tue Jan  8 12:30:25 2019 (+0000)
- *           By: Joseph
- *     Update #: 1
- * URL: 
- * Doc URL: 
- * Keywords: 
- * Compatibility: 
- * 
- */
-
-/* Commentary: 
- * 
- * 
- * 
- */
-
-/* Change Log:
- * 
- * 
- */
+ * Description: Safebuffer header file
+ * Author: Calin Doran
 
 /* This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

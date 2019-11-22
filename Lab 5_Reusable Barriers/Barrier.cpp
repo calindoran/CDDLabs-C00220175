@@ -1,27 +1,8 @@
 // Barrier.cpp --- 
 // 
 // Filename: Barrier.cpp
-// Description: 
+// Description: The Barrier class
 // Author: Calin Doran
-// Maintainer: 
-// Created:
-// Version: 
-// Package-Requires:
-// URL: 
-// Doc URL: 
-// Keywords: 
-// Compatibility: 
-
-// Commentary: 
-// 
-// 
-// 
-// 
-
-// Change Log:
-// 
-// 
-// 
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -47,8 +28,8 @@
 @brief Barrier constructor with one  parameter of type int 
 @param Threads
 @return none
-*/
 
+*/
 
 Barrier::Barrier(int Threads)
 {
@@ -64,6 +45,7 @@ Barrier::Barrier(int Threads)
 @brief virtual Barrier constructor used to reset all semaphores
 @param none
 @return none
+
 */
 
 Barrier::~Barrier(){
@@ -77,6 +59,7 @@ Barrier::~Barrier(){
 @brief phase one contains the implementation of the first turnstile
 @param none
 @return none
+
 */
 
 void Barrier::phase_one(){
@@ -97,6 +80,7 @@ void Barrier::phase_one(){
 @brief phase two contains the implementation of the secons turnstile
 @param none
 @return none
+
 */
 
 void Barrier::phase_two(){

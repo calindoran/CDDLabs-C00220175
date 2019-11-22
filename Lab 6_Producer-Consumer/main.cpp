@@ -1,3 +1,6 @@
+//Author: Calin Doran
+//Program: Consumer and Producer
+
 #include "Barrier.h"
 #include "Event.h"
 #include <iostream>
@@ -11,6 +14,7 @@ const int size=20;
 
 /*! \fn producer
     \brief Creates events and adds them to buffer
+
 */
 
 void producer(std::shared_ptr<SafeBuffer<std::shared_ptr<Event>> theBuffer, int numLoops){
@@ -26,6 +30,7 @@ void producer(std::shared_ptr<SafeBuffer<std::shared_ptr<Event>> theBuffer, int 
 
 /*! \fn consumer
     \brief Takes events from buffer and consumes them
+
 */
 
 void consumer(std::shared_ptr<SafeBuffer<std::shared_ptr Event>> theBuffer, int numLoops){

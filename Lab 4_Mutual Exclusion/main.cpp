@@ -17,7 +17,10 @@ int sharedVariable=0;
    Uses C++11 features such as mutex and condition variables to implement an example of a rendezvous for threads
 
 */
-/*! displays a message that is split in to 2 sections to show how a rendezvous works*/
+
+/*! displays a message that is split in to 2 sections to show how a rendezvous works
+
+*/
 void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates){
 
  
