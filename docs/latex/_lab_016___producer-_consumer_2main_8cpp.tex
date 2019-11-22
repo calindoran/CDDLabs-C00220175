@@ -1,0 +1,74 @@
+\hypertarget{_lab_016___producer-_consumer_2main_8cpp}{}\doxysection{Lab 6\+\_\+\+Producer-\/\+Consumer/main.cpp File Reference}
+\label{_lab_016___producer-_consumer_2main_8cpp}\index{Lab 6\_Producer-\/Consumer/main.cpp@{Lab 6\_Producer-\/Consumer/main.cpp}}
+{\ttfamily \#include \char`\"{}Barrier.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Event.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_lab_016___producer-_consumer_2main_8cpp_a8ebe9cb4b78e972a457338d702c69620}{producer}} (std\+::shared\+\_\+ptr$<$ Safe\+Buffer$<$ std\+::shared\+\_\+ptr$<$ Event $>$$>$ the\+Buffer, int num\+Loops)
+\begin{DoxyCompactList}\small\item\em Creates events and adds them to buffer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_lab_016___producer-_consumer_2main_8cpp_a72e81a3217aba3bc2a8f74902df2de61}{consumer}} (std\+::shared\+\_\+ptr$<$ Safe\+Buffer$<$ std\+::shared\+\_\+ptr Event $>$$>$ the\+Buffer, int num\+Loops)
+\item 
+int \mbox{\hyperlink{_lab_016___producer-_consumer_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{_lab_016___producer-_consumer_2main_8cpp_aab938108caad0d0e47d6885b5ba2d23a}{size}} =20
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_lab_016___producer-_consumer_2main_8cpp_a72e81a3217aba3bc2a8f74902df2de61}\label{_lab_016___producer-_consumer_2main_8cpp_a72e81a3217aba3bc2a8f74902df2de61}} 
+\index{main.cpp@{main.cpp}!consumer@{consumer}}
+\index{consumer@{consumer}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{consumer()}{consumer()}}
+{\footnotesize\ttfamily void consumer (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ Safe\+Buffer$<$ std\+::shared\+\_\+ptr Event $>$$>$}]{the\+Buffer,  }\item[{int}]{num\+Loops }\end{DoxyParamCaption})}
+
+
+
+Definition at line 31 of file main.\+cpp.
+
+\mbox{\Hypertarget{_lab_016___producer-_consumer_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{_lab_016___producer-_consumer_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+$<$ Launch the threads ~\newline
+
+
+Definition at line 42 of file main.\+cpp.
+
+\mbox{\Hypertarget{_lab_016___producer-_consumer_2main_8cpp_a8ebe9cb4b78e972a457338d702c69620}\label{_lab_016___producer-_consumer_2main_8cpp_a8ebe9cb4b78e972a457338d702c69620}} 
+\index{main.cpp@{main.cpp}!producer@{producer}}
+\index{producer@{producer}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{producer()}{producer()}}
+{\footnotesize\ttfamily producer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creates events and adds them to buffer. 
+
+
+
+Definition at line 16 of file main.\+cpp.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_lab_016___producer-_consumer_2main_8cpp_aab938108caad0d0e47d6885b5ba2d23a}\label{_lab_016___producer-_consumer_2main_8cpp_aab938108caad0d0e47d6885b5ba2d23a}} 
+\index{main.cpp@{main.cpp}!size@{size}}
+\index{size@{size}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily const int size =20}
+
+
+
+Definition at line 9 of file main.\+cpp.
+

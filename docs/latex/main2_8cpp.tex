@@ -1,0 +1,57 @@
+\hypertarget{main2_8cpp}{}\doxysection{Lab 3\+\_\+\+Rendezvous/main2.cpp File Reference}
+\label{main2_8cpp}\index{Lab 3\_Rendezvous/main2.cpp@{Lab 3\_Rendezvous/main2.cpp}}
+{\ttfamily \#include \char`\"{}Semaphore.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+Include dependency graph for main2.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main2_8cpp_a09f6ddb7a4d8f92a1f8a2330604f8b58}{task\+One}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$ the\+Semaphore, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$ the\+Mutex)
+\item 
+int \mbox{\hyperlink{main2_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main2_8cpp_a617a47c70795bcff659815ad0efd2266}{counter}} =0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main2_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{main2_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main2.cpp@{main2.cpp}!main@{main}}
+\index{main@{main}!main2.cpp@{main2.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+$<$ Launch the threads ~\newline
+
+
+Definition at line 37 of file main2.\+cpp.
+
+\mbox{\Hypertarget{main2_8cpp_a09f6ddb7a4d8f92a1f8a2330604f8b58}\label{main2_8cpp_a09f6ddb7a4d8f92a1f8a2330604f8b58}} 
+\index{main2.cpp@{main2.cpp}!taskOne@{taskOne}}
+\index{taskOne@{taskOne}!main2.cpp@{main2.cpp}}
+\doxysubsubsection{\texorpdfstring{taskOne()}{taskOne()}}
+{\footnotesize\ttfamily void task\+One (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$}]{the\+Semaphore,  }\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$}]{the\+Mutex }\end{DoxyParamCaption})}
+
+displays a message that is split in to 2 sections to show how a rendezvous works 
+
+Definition at line 17 of file main2.\+cpp.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main2_8cpp_a617a47c70795bcff659815ad0efd2266}\label{main2_8cpp_a617a47c70795bcff659815ad0efd2266}} 
+\index{main2.cpp@{main2.cpp}!counter@{counter}}
+\index{counter@{counter}!main2.cpp@{main2.cpp}}
+\doxysubsubsection{\texorpdfstring{counter}{counter}}
+{\footnotesize\ttfamily int counter =0}
+
+
+
+Definition at line 9 of file main2.\+cpp.
+

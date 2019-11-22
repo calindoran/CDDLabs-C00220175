@@ -1,0 +1,8 @@
+digraph "Lab 6_Producer-Consumer" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  dir_e0b4f8b0429be775b76187c4c5b6a67b [shape=box, label="Lab 6_Producer-Consumer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e0b4f8b0429be775b76187c4c5b6a67b.html"];
+  dir_67c1aea56d7939d9b775afa75e82f91e [shape=box label="Lab 5_Reusable Barriers" URL="dir_67c1aea56d7939d9b775afa75e82f91e.html"];
+  dir_e0b4f8b0429be775b76187c4c5b6a67b->dir_67c1aea56d7939d9b775afa75e82f91e [headlabel="1", labeldistance=1.5 headhref="dir_000006_000005.html"];
+}

@@ -1,0 +1,53 @@
+\hypertarget{_lab_012___semaphores_2main_8cpp}{}\doxysection{Lab 2\+\_\+\+Semaphores/main.cpp File Reference}
+\label{_lab_012___semaphores_2main_8cpp}\index{Lab 2\_Semaphores/main.cpp@{Lab 2\_Semaphores/main.cpp}}
+{\ttfamily \#include \char`\"{}Semaphore.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_lab_012___semaphores_2main_8cpp_ac127a489695cc6acb909e588ca643292}{task\+One}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$ the\+Sem, int delay)
+\item 
+void \mbox{\hyperlink{_lab_012___semaphores_2main_8cpp_a44bbc34f174e9b303a7a2e295685fa79}{task\+Two}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$ the\+Sem)
+\item 
+int \mbox{\hyperlink{_lab_012___semaphores_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_lab_012___semaphores_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{_lab_012___semaphores_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+$<$ Launch the threads ~\newline
+
+
+$<$ Wait for the threads to finish
+
+Definition at line 35 of file main.\+cpp.
+
+\mbox{\Hypertarget{_lab_012___semaphores_2main_8cpp_ac127a489695cc6acb909e588ca643292}\label{_lab_012___semaphores_2main_8cpp_ac127a489695cc6acb909e588ca643292}} 
+\index{main.cpp@{main.cpp}!taskOne@{taskOne}}
+\index{taskOne@{taskOne}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{taskOne()}{taskOne()}}
+{\footnotesize\ttfamily void task\+One (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$}]{the\+Sem,  }\item[{int}]{delay }\end{DoxyParamCaption})}
+
+displays a message first 
+
+Definition at line 16 of file main.\+cpp.
+
+\mbox{\Hypertarget{_lab_012___semaphores_2main_8cpp_a44bbc34f174e9b303a7a2e295685fa79}\label{_lab_012___semaphores_2main_8cpp_a44bbc34f174e9b303a7a2e295685fa79}} 
+\index{main.cpp@{main.cpp}!taskTwo@{taskTwo}}
+\index{taskTwo@{taskTwo}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{taskTwo()}{taskTwo()}}
+{\footnotesize\ttfamily void task\+Two (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$}]{the\+Sem }\end{DoxyParamCaption})}
+
+displays a message second 
+
+Definition at line 26 of file main.\+cpp.
+
