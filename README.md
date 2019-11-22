@@ -23,32 +23,32 @@ If you type 'make DOC' in a terminal in the working directory, the make file wil
 ------------------------
 
 Lab 1 - The Toolchain
-Executable file = 
+Executable file = helloThreads
 
 ------------------------
 
 Lab 2 - Signalling with Semaphores
-Executable file = 
+Executable file = Semaphore
 
 ------------------------
 
 Lab 3 - Rendezvous
-Executable file = 
+Executable file = rendezvous
 
 ------------------------
 
 Lab 4 - Mutual Exclusion
-Executable file = 
+Executable file = mutex
 
 ------------------------
 
 Lab 5 - Reusable Barrier Class
-Executable file = 
+Executable file = Barrier
 
 ------------------------
 
 Lab 6 - Producers and Consumers
-Executable file = 
+Executable file = Barrier
 
 ------------------------
 
