@@ -1,0 +1,51 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include \char`\"{}Semaphore.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_ac127a489695cc6acb909e588ca643292}{task\+One}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$ the\+Sem, int delay)
+\item 
+void \mbox{\hyperlink{main_8cpp_a44bbc34f174e9b303a7a2e295685fa79}{task\+Two}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$ the\+Sem)
+\item 
+int \mbox{\hyperlink{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+$<$ Launch the threads ~\newline
+
+
+$<$ Wait for the threads to finish
+
+Definition at line 36 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_ac127a489695cc6acb909e588ca643292}\label{main_8cpp_ac127a489695cc6acb909e588ca643292}} 
+\index{main.cpp@{main.cpp}!taskOne@{taskOne}}
+\index{taskOne@{taskOne}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{taskOne()}{taskOne()}}
+{\footnotesize\ttfamily void task\+One (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$}]{the\+Sem,  }\item[{int}]{delay }\end{DoxyParamCaption})}
+
+displays a message first 
+
+Definition at line 17 of file main.\+cpp.
+
+\mbox{\Hypertarget{main_8cpp_a44bbc34f174e9b303a7a2e295685fa79}\label{main_8cpp_a44bbc34f174e9b303a7a2e295685fa79}} 
+\index{main.cpp@{main.cpp}!taskTwo@{taskTwo}}
+\index{taskTwo@{taskTwo}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{taskTwo()}{taskTwo()}}
+{\footnotesize\ttfamily void task\+Two (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_semaphore}{Semaphore}} $>$}]{the\+Sem }\end{DoxyParamCaption})}
+
+displays a message second 
+
+Definition at line 27 of file main.\+cpp.
+
